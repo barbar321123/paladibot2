@@ -2,12 +2,12 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('I am ready!');
+    console.log('BOT {client.user.tag} ADI İLE GİRİŞ YAPTI!');
 });
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	message.reply('pong' + client.ping + 'ms');
   	}
 });
 
