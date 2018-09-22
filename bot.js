@@ -14,6 +14,8 @@ client.on('message', message => {
         msg.channel.send(msg.author.avatarURL)
     }
       
+
+    
 });
 
 // THIS  MUST  BE  THIS  WAY
