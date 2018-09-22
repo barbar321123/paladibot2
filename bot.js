@@ -18,7 +18,7 @@ client.on('message', message => {
           message.reply(message.author.avatarURL);
         }
         if (message.content === prefix + 'davetlinki') {
-          message.reply('//discordapp.com/oauth2/authorize?client_id=492398392253612073&scope=bot&permissions=2146958847');
+          message.reply('https://discordapp.com/oauth2/authorize?client_id=492398392253612073&scope=bot&permissions=2146958847');
         }
 
 
