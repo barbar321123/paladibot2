@@ -17,10 +17,8 @@ client.on('message', message => {
           // Send the user's avatar URL
           message.reply(message.author.avatarURL);
         }
-        // If the message is "what is my avatar"
         if (message.content === prefix + 'davetlinki') {
-          // Send the user's avatar URL
-          message.reply(//discordapp.com/oauth2/authorize?client_id=492398392253612073&scope=bot&permissions=2146958847);
+          message.reply('//discordapp.com/oauth2/authorize?client_id=492398392253612073&scope=bot&permissions=2146958847');
         }
 
 
