@@ -6,12 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '&ping') {
+    if (message.content === 'ping') {
     	message.reply('Sunucunun Ping Değeri! ' + client.ping + ' ms');
   	}
     
-        // If the message is "&avatarım"
-        if (message.content === 'what is my avatar') {
+        // If the message is "avatarım"
+        if (message.content === 'avatarım') {
           // Send the user's avatar URL
           message.reply(message.author.avatarURL);
         }
