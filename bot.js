@@ -9,7 +9,11 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('Sunucunun Ping Değeri! ' + client.ping + ' ms');
   	}
-  
+    
+    if (msg.content === 'avatarım') {
+        msg.channel.send(msg.author.avatarURL)
+    }
+      
 });
 
 // THIS  MUST  BE  THIS  WAY
