@@ -10,12 +10,12 @@ client.on('message', message => {
     	message.reply('Sunucunun Ping Değeri! ' + client.ping + ' ms');
   	}
     
-    if (msg.content === 'avatarım') {
-        msg.channel.send(msg.author.avatarURL)
+    if (message.content === prefix + 'avatarım') {  
+        message.channel.send(message.author.avatarURL);
     }
       
 
-    
+
 });
 
 // THIS  MUST  BE  THIS  WAY
