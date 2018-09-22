@@ -25,6 +25,7 @@ client.on('message', message => {
             process.exit(0)
         }else {
             message.channel.send('Bu Yetkiye Sahip Değilsiniz!!');
+        }
 
 });
 
