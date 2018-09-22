@@ -22,7 +22,7 @@ client.on('message', message => {
         }
         if (message.content === prefix + 'reboot') {
         
-        if (message.author.id === '492950488132747274') {
+        if (message.author.id === '492951512730042369') {
             message.channel.send('[BOT] Yeniden Başlatılıyor...');
             process.exit(0)
         }else {
