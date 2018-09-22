@@ -12,7 +12,7 @@ client.on('message', message => {
   
   if (message.content === prefix + 'avatarım') {  
 	message.channel.send(message.author.avatarURL);
-  }
+        }
   
 });
 
