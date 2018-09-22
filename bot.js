@@ -20,7 +20,11 @@ client.on('message', message => {
         if (message.content === prefix + 'davetlinki') {
           message.reply('https://discordapp.com/oauth2/authorize?client_id=492398392253612073&scope=bot&permissions=2146958847');
         }
-
+        if (message.content === prefix + 'reboot') {
+            message.channel.send('[BOT] Yeniden Başlatılıyor...');
+            process.exit(0)
+        }else {
+            message.channel.send('Bu Yetkiye Sahip Değilsiniz!!');
 
 });
 
