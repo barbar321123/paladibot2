@@ -10,8 +10,8 @@ client.on('message', message => {
     	message.reply('Sunucunun Ping Değeri! ' + client.ping + ' ms');
   	}
     
-        // If the message is "avatarım"
-        if (message.content === 'avatarım') {
+        // If the message is "what is my avatar"
+        if (message.content === 'avatarim') {
           // Send the user's avatar URL
           message.reply(message.author.avatarURL);
         }
