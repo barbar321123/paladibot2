@@ -30,11 +30,6 @@ client.on('message', message => {
         }else {
             message.channel.send('Bu Yetkiye Sahip Değilsiniz!!');
         }
-            client.on('message', msg => {
-  if (msg.content === 'discord.gg') {
-   msg.delete(30)
-    msg.reply('Reklam Engellendi');
-  }
 });
     }
 
