@@ -22,7 +22,7 @@ client.on('message', message => {
         }
         if (msg.content === 'discord.gg') {
            msg.delete(30)
-    m  sg.reply('Reklam Engellendi');
+         msg.reply('Reklam Engellendi');
   }
     
 
