@@ -20,6 +20,7 @@ client.on('message', message => {
         if (message.content === prefix + 'davetlinki') {
           message.reply('https://discordapp.com/oauth2/authorize?client_id=492398392253612073&scope=bot&permissions=2146958847');
         }
+ }
 
 });
 
