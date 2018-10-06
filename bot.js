@@ -24,7 +24,6 @@ client.on('message', message => {
            msg.delete(30)
          msg.reply('Reklam Engellendi');
       }
-}
 
 });
 
