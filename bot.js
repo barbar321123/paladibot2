@@ -17,10 +17,6 @@ client.on('message', message => {
           // Send the user's avatar URL
           message.reply(message.author.avatarURL);
         }
-        if (message.content === prefix + 'yapımcı') {
-          // Send the user's avatar URL
-          message.reply('Bot By Burak1kral [HYDRA]#5001');
-        }
  }
 
 });
